@@ -169,6 +169,7 @@ class _LoginpageState extends State<Loginpage> {
                       child: Center(
                         child: InkWell(
                           onTap: (){
+                            print("Code changes");
                             Workmanager().cancelAll().then((value) {
                               log("Cancelled");
                             });
@@ -182,6 +183,7 @@ class _LoginpageState extends State<Loginpage> {
                             if (radius == null) {
                               setState(() => radius = 0.0);
                             }
+
                             GeofencingManager.registerGeofence(
                                 GeofenceRegion(
                                     'mtv', latitude, longitude, radius, triggers,
