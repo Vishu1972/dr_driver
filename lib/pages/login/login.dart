@@ -170,6 +170,10 @@ class _LoginpageState extends State<Loginpage> {
                         child: InkWell(
                           onTap: (){
                             print("Code changes");
+                            print("Code changes");
+                            print("Code changes");
+                            print("Code changes");
+                            print("Code changes");
                             Workmanager().cancelAll().then((value) {
                               log("Cancelled");
                             });
