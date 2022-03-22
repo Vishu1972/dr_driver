@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210574108718",
+    "project_id": "dr-driver-ebe3d",
+    "storage_bucket": "dr-driver-ebe3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210574108718:android:276a8c96dfc06b7de4d7bf",
+        "android_client_info": {
+          "package_name": "com.proinnovative.dr_drivers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210574108718-16nhvjpm7h7dt8jmh2uf36a8vogqh6l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZJf40-wWQMeV_6IK1nwgwURSrGN8dRU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210574108718-16nhvjpm7h7dt8jmh2uf36a8vogqh6l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
